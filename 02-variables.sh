@@ -1,5 +1,7 @@
 #!/bin/bash
-echo "Suresh::Hello Ramesh How are you"
-echo "Ramesh::Hello Suresh iam fine how about you?"
-echo "Suresh::Am too good Ramesh Thanks!"
-echo "Ramesh::Am learning DevOps Suresh"
+person1=$person1
+person2=$person2
+echo "$person1::Hello $person2 How are you"
+echo "$person2::Hello $person1 iam fine how about you?"
+echo "$person1::Am too good $person2 Thanks!"
+echo "$person2::Am learning DevOps $person1"

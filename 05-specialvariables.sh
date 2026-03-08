@@ -6,6 +6,5 @@ echo "present working directory:$PWD"
 echo "who is running:$USER"
 echo "home directory of current user:$HOME"
 echo "PID of the script:$$"
-
-echo "PUD of recently executed background process:$!"
+echo "PID of recently executed background process:$!"
 echo all args passed to script:$*"

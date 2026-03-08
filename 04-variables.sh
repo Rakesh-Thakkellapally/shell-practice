@@ -1,3 +1,3 @@
 #!/bin/bash
-Timestamp=($date)
+Timestamp=$(date +"%Y-%m-%d_%H-%M-%S")
 echo "script executed at:$Timestamp"

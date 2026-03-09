@@ -13,9 +13,9 @@ Validate () {
     echo "$2 ...success"
     fi
 }
-dnf install nginx -y
+dnf remove nginx -y
 Validate $? "Installing nginx"
-dnf install mysql -y
-Validate $? "installing myssql"
-dnf install nodejs -y
+dnf remove mysql -y
+Validate $? "installing mysql"
+dnf remove nodejs -y
 Validate $? "installing nodejs"

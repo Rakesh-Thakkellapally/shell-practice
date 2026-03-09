@@ -13,9 +13,9 @@ Validate () {
     echo "$2 ...success"
     fi
 }
-dnf remove nginx -y
+dnf remove ngisnx -y
 Validate $? "Installing nginx"
-dnf remove mysql -y
+dnf remove mysjhql -y
 Validate $? "installing mysql"
-dnf remove nodejs -y
+dnf remove nodekjjs -y
 Validate $? "installing nodejs"

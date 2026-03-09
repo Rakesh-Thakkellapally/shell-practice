@@ -5,4 +5,3 @@ echo "please run this with root user"
 fi 
 echo "installing nginx"
 dnf install nginx -y
-fi

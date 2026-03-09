@@ -5,7 +5,7 @@ echo "please run this with root user"
 exit 1
 fi
 echo "installing nginx"
-dnf install nginx -y
+dnf install nginx 
 if [ $? -ne 0 ];then
 echo "nginx installation...failed"
 exit 1

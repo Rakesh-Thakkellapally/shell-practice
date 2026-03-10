@@ -1,5 +1,5 @@
 #!/bin/bash
-for i in {1..100}
+for fruit in apple,banana,pomo
 do 
-echo $i
+echo "i like $fruit
 done
